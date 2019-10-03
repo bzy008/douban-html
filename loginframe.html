@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="loginframe.css">
+</head>
+<body>
+	<div class="container">
+		<!-- 短信登录 -->
+		<div class="login">
+			<div class="switch-menu clearfix">
+				<span class="left selected">
+					短信登录/注册
+				</span>
+				<span class="right">
+					密码登录
+				</span>
+			</div>
+
+			<form class="form">
+				<!-- 短信登录 -->
+				<div class="hidden"> <!-- 暂时隐藏 -->
+					<div class="form-item">
+						<p class="txt">
+							登录注册表示同意
+							<a href="">豆瓣使用协议、隐私政策</a>
+						</p>
+					</div>
+
+					<div class="form-item">
+						<input type="text" class="more-text-indent" placeholder="手机号">
+						<div class="country-code">
+							<div>
+								+86
+							</div>
+							<!-- 暂时隐藏 -->
+							<div class="choose-area hidden">
+								<div class="center">
+									<div class="title">
+										选择国际区号
+									</div>
+									<ul>
+										<li class="clearfix selected">
+											<span class="left">国家名1</span>
+											<i class="left iconfont icon-hook"></i>
+											<span class="right">+1</span></li>
+										<li class="clearfix"><span class="left">国家名2</span><span class="right">+2</span></li>
+										<li class="clearfix"><span class="left">国家名3</span><span class="right">+3</span></li>
+										<li class="clearfix"><span class="left">国家名4</span><span class="right">+4</span></li>
+										<li class="clearfix"><span class="left">国家名5</span><span class="right">+5</span></li>
+										<li class="clearfix"><span class="left">国家名6</span><span class="right">+6</span></li>
+										<li class="clearfix"><span class="left">国家名7</span><span class="right">+7</span></li>
+										<li class="clearfix"><span class="left">国家名8</span><span class="right">+8</span></li>
+										<li class="clearfix"><span class="left">国家名9</span><span class="right">+9</span></li>
+										<li class="clearfix"><span class="left">国家名10</span><span class="right">+10</span></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<input type="text" placeholder="验证码">
+						<a href="" class="ab-right">
+							获取验证码
+						</a>
+					</div>
+
+					<div class="form-item">
+						<button class="btn">
+							登录豆瓣
+						</button>
+					</div>
+
+					<div class="form-item  tip clearfix">
+						<label class="left">
+							<input type="checkbox" name="">
+							下次自动登录
+						</label>
+						<span class="right">
+							<a href="">收不到验证码</a>
+						</span>
+					</div>
+				</div>
+				
+				<!-- 密码登录 -->
+				<div>
+					<div class="form-right tip clearfix">
+						<a href="" class="right">找回密码</a>
+					</div>
+					<div class="form-item">
+						<input type="text" placeholder="手机号/邮箱">
+					</div>
+					<div class="form-item">
+						<input type="text" placeholder="密码">
+					</div>
+					<div class="form-item">
+						<button disabled class="btn">登录豆瓣</button>
+					</div>
+					<div class="form-item  tip clearfix">
+						<label class="left">
+							<input type="checkbox" name="">
+							下次自动登录
+						</label>
+						<span class="right">
+							<a href="">海外手机登录</a>
+						</span>
+					</div>
+				</div>
+			</form>
+
+			<div class="bottom">
+				<span class="msg">
+					等三方登录
+				</span>
+				<i class="iconfont icon-weixin"></i>
+				<i class="iconfont icon-weibo"></i>
+			</div>
+		</div>
+
+		<!-- 扫码登录 -->
+		<div class="qrcode hidden">
+			<div class="title">
+				二维码登录
+			</div>
+			<div class="code">
+				<img src="doubanqr.png" alt="">
+			</div>
+			<div class="tip">
+				请打开豆瓣客户端扫一扫
+			</div>
+		</div>
+
+		<div class="change">
+			<!-- <i class="icon icon-download"></i> -->
+			<i class="icon icon-download2"></i>
+		</div>
+
+		<div class="pointer hidden">
+			扫码登录
+		</div>
+	</div>
+</body>
+</html>
